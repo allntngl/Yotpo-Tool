@@ -18,14 +18,10 @@ A complete **Yotpo API Management Dashboard** with a Node.js proxy server that e
 - Auto-fills token to Products and Orders tabs
 
 ### Products Management
-- Create new products
-- Update existing products
 - Retrieve products (single or all with pagination)
 - Export products to CSV
 
 ### Orders Management
-- Create single orders
-- **NEW**: Bulk order creation - add multiple orders to a queue and submit all at once
 - Retrieve orders (single or all with pagination)
 - Export orders to CSV
 
@@ -86,17 +82,12 @@ http://localhost:3000/yotpo-dashboard.html
 
 ### 2. Manage Products
 - Click **Products** tab
-- Create, update, or retrieve products
+- Retrieve products
 - Export to CSV with one click
 
-### 3. Manage Orders (Including Bulk!)
-- Click **Orders** tab
-- **Single Order**: Fill form → Click "Create Single Order"
-- **Bulk Orders**:
-  1. Fill form → Click "Add to Queue"
-  2. Form clears automatically
-  3. Repeat for all orders
-  4. Click "Create All Orders" to submit everything at once
+### 3. Manage Orders 
+- Retrieve orders
+- Export to CSV with one click
 
 ## 🔧 Troubleshooting
 
